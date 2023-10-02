@@ -1,0 +1,32 @@
+.vl {
+    border-left: 1px solid grey;
+    height: 500px;
+
+  }
+  
+footer p{
+    text-align: center;
+   
+}
+body{
+    background-image: url(../img/pala3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.static{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.under{
+    margin-bottom: 500px;
+}
+footer{
+    margin-bottom: 0%;
+}
+#nav{
+    color: white;
+}
+p{
+    text-align: justify;
+    
+}
