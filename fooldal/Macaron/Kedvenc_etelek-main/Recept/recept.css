@@ -1,0 +1,24 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/bg4.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.content {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+p {
+    text-decoration: none;
+    font-size: 175%;
+    text-align: justify;
+}
+
+.fajta {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}

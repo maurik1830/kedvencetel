@@ -1,0 +1,77 @@
+* {
+    --bg: #eedfbb;
+    --accent1: #a7c957;
+    --accent2: #86a147;
+    --text1: #25442b;
+}
+
+body {
+    background-color: #fff
+}
+
+.hero {
+    margin-top: -2px !important;
+    background-color: var(--bg) !important;
+}
+
+#cake {
+    background-image: url(../img/Torta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fejlec, .fejlec a {
+    background-color: var(--accent1) !important;
+    color: var(--text1) !important;
+    letter-spacing: 0.4px;
+}
+
+main {
+    background-color: #f8f5ed;
+}
+
+.btn-outline-dark {
+    min-width: 12%;
+    box-shadow: 2px 2px 6px grey;
+}
+
+#current {
+    text-align: center;
+}
+
+.ingredient-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border: 3px var(--accent1) solid;
+    border-radius: 50%;
+    padding-top: 18px;
+    box-shadow: 2px 2px 6px grey;
+}
+
+.ingredient-icon-custom {
+    padding: 3px;
+}
+
+footer {
+    background-color: var(--bg) !important;
+    color: var(--text1) !important;
+    letter-spacing: 0.4px;
+    height: 100px;
+}
+
+#readmore, #plus, #minus {
+    background-color: var(--accent1);
+    border-color: var(--accent1);
+    border-width: 1.5px;
+    box-shadow: 2px 2px 6px grey;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: var(--text1);
+}
+
+#readmore:hover, #plus:hover, #minus:hover {
+    background-color: var(--accent2);
+    border-color: var(--accent2);
+}

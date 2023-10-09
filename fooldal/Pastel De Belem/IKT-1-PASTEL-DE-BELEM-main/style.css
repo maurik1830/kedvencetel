@@ -1,0 +1,23 @@
+h1 {
+    background-color: #a68a64;
+    text-align: center;
+}
+
+.teteje {
+    background-color:#fcf6bd ;
+    font-size: 20px;
+    text-align: center;
+}
+
+.also {
+    background-color:#d4a373;
+}
+
+body, nav, footer {
+    background-color: #a68a64;
+
+}
+
+footer{
+    height: 85px;
+}

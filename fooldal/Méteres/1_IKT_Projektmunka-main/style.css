@@ -1,0 +1,22 @@
+nav{
+    background-color: rgb(222,172,148);
+}
+
+.hatter{
+    background-color: rgb(192,132,102);
+    border-radius: 5px;
+    border: black 2px solid;
+    margin: 30px;
+    padding: 10px;
+}
+
+#fohatter{
+    background-color: rgb(132,90,70);
+}
+
+footer{
+    background-color: rgb(222,172,148);
+    text-align: center;
+    height: 30px;
+
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+}
+
+a {
+    color: black;
+}
+
+/* Animations */
+
+.growbigger {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.growbigger:hover,
+.growbigger:focus,
+.growbigger:active {
+    transform: scale(1.08) perspective(1px)
+}

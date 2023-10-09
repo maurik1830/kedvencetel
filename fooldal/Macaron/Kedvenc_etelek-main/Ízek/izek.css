@@ -1,0 +1,83 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Images/bg3.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+img {
+    width: 200px;
+}
+
+.myCenter {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+}
+
+.focim {
+    color: #9CA9CC;
+    font-weight: bolder;
+    text-decoration: underline #9CA9CC;
+}
+
+.myP {
+    font-size: small;
+}
+
+.background {
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sotetk {
+    border-top-left-radius: 40px;
+    border-top: solid 2px #9CA9CC;
+    border-left: solid 2px #9CA9CC;
+}
+
+.zold {
+    border-top: solid 2px #CAD298;
+}
+
+.barna {
+    border-top-right-radius: 40px;
+    border-top: solid 2px #CCB492;
+    border-right: solid 2px #CCB492;
+}
+
+.rozsasz {
+    border-left: solid 2px #EAB2D3;
+}
+
+.vilagosk {
+    border-right: solid 2px #299EAD;
+}
+
+.fekete {
+    border-left: solid 2px #333333;
+}
+
+.piros {
+    border-right: solid 2px #FF3D7A;
+}
+
+.feher {
+    border-bottom-left-radius: 40px;
+    border-left: solid 2px #F2EAB5;
+    border-bottom: solid 2px #F2EAB5;
+}
+
+.narancs {
+    border-bottom: solid 2px #EF9156;
+}
+
+.lila {
+    border-bottom-right-radius: 40px;
+    border-right: solid 2px #B22AA4;
+    border-bottom: solid 2px #B22AA4;
+}
