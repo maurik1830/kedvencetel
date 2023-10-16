@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Encode+Sans&family=Montserrat:wght@100&family=Sacramento&display=swap');
 
 
-nav{
+nav, footer{
     background-color: brown;
     
 }
@@ -25,6 +25,15 @@ span{
     text-align: center;
 }
 img{
-    padding: 10px;
-    margin-top: 50px;
+    padding: 2px;
+    margin-top: 25px;
+    width: 500px;
+}
+
+#sweet{
+    width: fit-content;
+}
+
+#desc{
+    width: 610px;
 }
