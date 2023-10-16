@@ -7,217 +7,536 @@
     <title>Édességek tárháza</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body class="">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Édességek tárháza</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Története</a>
-              </li>
-              
-            </ul>
-            
-          </div>
+            <a class="navbar-brand" href="#">Édességek tárháza</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Édességek, finomságok
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#churros">Churros</a></li>
+                            <li><a class="dropdown-item" href="#dobos">Dobostorta</a></li>
+                            <li><a class="dropdown-item" href="#francia">Franciakrémes</a></li>
+                            <li><a class="dropdown-item" href="#bejgli">Gesztenyés bejgli</a></li>
+                            <li><a class="dropdown-item" href="#isler">Isler</a></li>
+                            <li><a class="dropdown-item" href="#macaron">Macaron</a></li>
+                            <li><a class="dropdown-item" href="#meteres">Méteres</a></li>
+                            <li><a class="dropdown-item" href="#mezes">Mézes Krémes</a></li>
+                            <li><a class="dropdown-item" href="#palacsinta">Palacsinta</a></li>
+                            <li><a class="dropdown-item" href="#pastel">Pastel De Belem</a></li>
+                            <li><a class="dropdown-item" href="#guba">Mákos guba</a></li>
+                            <li><a class="dropdown-item" href="#kokusz">Kókuszgolyó</a></li>
+                            <li><a class="dropdown-item" href="#epres">Epres Sajttorta</a></li>
+                            <li><a class="dropdown-item" href="#baklava">Baklava</a></li>
+                            <li><a class="dropdown-item" href="#gofri">Gofri</a></li>
+                            <li><a class="dropdown-item" href="#neger">Négercsók</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
         </div>
-      </nav>
-      <main class="container-fluid">
-        <article class="container">
-            <section class="row">
+    </nav>
+    <main class="container-fluid">
+        <main class="container" id="fix">
+            <header class="row">
                 <div class="col">
-                    <h1>
+                    <h1 class="text-center">
                         Édességek tárháza
                     </h1>
-                    <hr>
+                    <h2 class="text-center">Üdvözlünk Az Édességek Tárházán!</h2>
+                    
                     <p>
-                        abel kábel
+                        Ezen az oldalon szinte minden édességet megtalálsz, ami csak szem-szájnak ingere, infromációkat,
+                        titkokat, sőt mindegyikhez egy
+                        receptet is írtunk, így akár elis készítheted kedvencedet.
+    
+                        Eme oldalt csapatunk, az NJIT SZFT5, azzal a céllal hozta létre, hogy minél több ember ismerhesse
+                        meg és próbálja ki, ezeket
+                        az egzotikus finomságokat.
+    
                     </p>
-                    <hr>
+                    <span>Tekintsd meg az alább látható édességeket!</span>
                 </div>
-                <section class="row">
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./Pastel De Belem/IKT-1-PASTEL-DE-BELEM-main/sutikep.jpg" class="card-img-top" alt="Pasta De Belem" title="Pasta De Belem">
-                            <div class="card-body">
-                              <h5 class="card-title">Pasta De Belem</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="./Pastel De Belem/IKT-1-PASTEL-DE-BELEM-main/index.html" class="btn btn-primary">További információk</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./Méteres/1_IKT_Projektmunka-main/kepek/meteres.jpg" class="card-img-top" alt="Méteres" title="Méteres">
-                            <div class="card-body">
-                              <h5 class="card-title">Méteres</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="./Méteres/1_IKT_Projektmunka-main/index.html" class="btn btn-primary">További információk</a>
-                            </div>
-                          </div>
-                    </div><div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./Gesztenyés Bejgli/IKT_gesztenyesbejgli-main/bejgli.jpg" class="card-img-top" alt="Gesztenyés Bejgli">
-                            <div class="card-body">
-                              <h5 class="card-title">Gesztenyés Bejgli</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="./Gesztenyés Bejgli/IKT_gesztenyesbejgli-main/index.html" class="btn btn-primary">További információk</a>
-                            </div>
-                          </div>
-                    </div><div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div>
+    
+            </header>
+            <section class="row">
+                <section class="col">
+                    <hr>
                 </section>
-                <section class="row">
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./Isler/IKT_project1-main/assets/img/foisler.jpg" class="card-img-top" alt="Isler" title="Isler">
-                            <div class="card-body">
-                              <h5 class="card-title">Isler</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="./Isler/IKT_project1-main/index.html" class="btn btn-primary">További információk</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Churros/IKT_Project_1-main/static/10363-1663835636223.webp" class="card-img-top" alt="Churros" title="Churros">
-                            <div class="card-body">
-                              <h5 class="card-title">Churros</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="./Churros/IKT_Project_1-main/src/app.html" class="btn btn-primary">További információk</a>
-                            </div>
-                          </div>
-                    </div><div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div><div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div>
-                </section><section class="row">
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="" class="card-img-top" alt="Palacsinta" title="Palacsinta">
-                            <div class="card-body">
-                              <h5 class="card-title">Palacsinta</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">További információk</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div><div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div><div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./Franciakrémes/SzaboDavid_Franciakremes-main/franciakremes.jpg" class="card-img-top" alt="Francia Krémes">
-                            <div class="card-body">
-                              <h5 class="card-title">Francia Krémes</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="./Franciakrémes/SzaboDavid_Franciakremes-main/index.html" class="btn btn-primary">További információk</a>
-                            </div>
-                          </div>
-                    </div>
-                </section><section class="row">
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./Macaron/Kedvenc_etelek-main/Images/bg2.jpg" class="card-img-top" alt="Macaron" title="Macaron">
-                            <div class="card-body">
-                              <h5 class="card-title">Macaron</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="./Macaron/Kedvenc_etelek-main/index.html" class="btn btn-primary">További információk</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./Dobostorta/IKT_Projekt_1_Dobostorta-main/assets/img/Torta.jpg" class="card-img-top" alt="Dobostorta">
-                            <div class="card-body">
-                              <h5 class="card-title">Dobostorta</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="./Dobostorta/IKT_Projekt_1_Dobostorta-main/index.html" class="btn btn-primary">További információk</a>
-                            </div>
-                          </div>
-                    </div><div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./Mézes Krémes/IKT_11_1Projekt-main/kepek/lead_L_mezeskremes-fekvo.jpg" class="card-img-top" alt="Mézes Krémes " title="Mézes Krémes">
-                            <div class="card-body">
-                              <h5 class="card-title">Mézes Krémes</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">További információk</a>
-                            </div>
-                          </div>
-                    </div><div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div>
-                </section>
-
             </section>
-        </article>
+            <article class="row" id="#churros">
+                <div class="col-md-9">
+                    <h2>
+                        Churros
+                    </h2>
+                    <p>
+                        A churros az évek során a világ számos részén is kedvelt lett, és manapság a fesztiválokon,
+                        kávézókban és utcai árusoknál is gyakran megtalálható. A tradicionális spanyol édesség új ízekkel és
+                        formákkal is gazdagodott, például töltött churros-okkal vagy különböző mártásokkal kiegészítve.
+                    </p>
+                    <p>
+    
+                        <a target="_blank" href="https://neu-iktprojekt-receptek-2023.netlify.app/">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+    
+    
+    
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/Churros/IKT_Project_1-main/static/10363-1663835636223.webp" alt="Churros"
+                        title="Churros">
+                </div>
+    
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row " id="#dobos">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/Dobostorta/IKT_Projekt_1_Dobostorta-main/assets/img/Torta.jpg"
+                        alt="Dobostorta" title="Dobostorta">
+                </div>
+    
+                <div class="col-md-9">
+                    <h2>
+                        Dobostorta
+                    </h2>
+                    <p>
+                        A hungarikum Dobos C. József cukrász mesterműve, amit 1885-ben egy országos kiállításon mutatott be
+                        először a nagyközönségnek. A szóbeszéd szerint a torta különleges krémje a vajat köpülő fiú
+                        hibájából született, aki só helyett cukrot tett az edénybe, Dobos pedig ebből a hibából alkotta meg
+                        a fenséges krémet.
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://tmarccci.github.io/IKT_Projekt_1_Dobostorta/">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#francia">
+                <div class="col-md-9">
+                    <h2>
+                        Francia krémes
+                    </h2>
+                    <p>
+                        Vegán francia krémes napfényes cukrászat Receptjét már 1651-ben közölte A francia szakács című
+                        könyvében François Pierre de La Varenne, Chalon-sur-Saône kormányzójának szakácsa...
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://poisonedzombie.github.io/SzaboDavid_Franciakremes/">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/Franciakrémes/SzaboDavid_Franciakremes-main/franciakremes.jpg"
+                        alt="Francia krémes" title="Francia krémes">
+                </div>
+    
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#bejgli">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/Gesztenyés Bejgli/IKT_gesztenyesbejgli-main/bejgli.jpg"
+                        alt="Gesztenyés Bejgli" title="Gesztenyés Bejgli">
+                </div>
+    
+                <div class="col-md-9">
+                    <h2>
+                        Gesztenyés Bejgli
+                    </h2>
+                    <p>
+                        Abban sokan egyet értünk, hogy bejgli nélkül nem telhet el a karácsony, de abban már eltérnek a
+                        vélemények, hogy ki, melyiket favorizálja persze, mindig vannak listavezetők.
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://kovacsadamattila.github.io/IKT_gesztenyesbejgli/">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#isler">
+                <div class="col-md-9">
+                    <h2>
+                        Isler
+                    </h2>
+                    <p>
+                        Az isler egy csokoládékrémmel bevont, töltött, omlós tésztapárból készült kerek sütemény. Számos
+                        változata létezik: van, amely kizárólag csokoládéval készül, de lekváros és habos változatai is
+                        vannak...
+                    </p>
+                    <p>
+                        <a target="_blank" href="http://lazarboldi.github.io/IKT_project1/">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/Isler/IKT_project1-main/assets/img/foisler.jpg" alt="Isler" title="Isler">
+                </div>
+    
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#macaron">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/Macaron/Kedvenc_etelek-main/Images/bg2.jpg" alt="Macaron" title="Macaron">
+                </div>
+    
+                <div class="col-md-9">
+                    <h2>
+                        Macaron
+                    </h2>
+                    <p>
+                        A macaron hagyományosan egy franciának tartott édesség, amelynek hozzávalói a tojásfehérje,
+                        mandulaliszt, kristálycukor és porcukor. A köztudatban francia édességként terjedt el, de korabeli
+                        források bizonyítják, hogy igazából egy olasz édességről van szó.
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://szmrlevee.github.io/macaron/">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#meteres">
+                <div class="col-md-9">
+                    <h2>
+                        Méteres
+                    </h2>
+                    <p>
+                        A méteres egy csokoládé bevonatú, piskotás, puncsos sütemény. Általaban ünnepi alkalmakra szokták
+                        elkészíteni. A méterest Retro édességnek is szokták nevezni és másképpen ferdén vágós süteménynek is
+                        nevezik, utalva arra, hogy tálaláskor nem egyenesen, hanem ferdén szeletelik fel.
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://kissdominikbence.github.io/1_IKT_Projektmunka/">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/Méteres/1_IKT_Projektmunka-main/kepek/meteres.jpg" alt="Méteres"
+                        title="Méteres">
+                </div>
+    
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#mezes">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/Mézes Krémes/IKT_11_1Projekt-main/kepek/lead_L_mezeskremes-fekvo.jpg"
+                        alt="Mézes krémes" title="Mézes krémes">
+                </div>
+    
+                <div class="col-md-9">
+                    <h2>
+                        Mézes krémes
+                    </h2>
+                    <p>
+                        Bár a krémes és mézes krémes nem egyezik mindenben, a mézes krémes a krémes sütemény egy mondhatni
+                        továbbfejlesztette változata...
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://tothbalazs06.github.io/IKT_11_1Projekt/">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#palacsinta">
+                <div class="col-md-9">
+                    <h2>
+                        Palacsinta
+                    </h2>
+                    <p>
+    
+                    </p>
+                    <p>
+                        <a href="">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/Palacsinta/pala2.jpg" alt="Palacsinta" title="Palacsinta">
+                </div>
+    
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#pastel">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="/Pastel De Belem/IKT-1-PASTEL-DE-BELEM-main/sutikep.jpg"
+                        alt="Pastel De Belem" title="Pastel De Belem">
+                </div>
+    
+                <div class="col-md-9">
+                    <h2>
+                        Pastel De Belem
+                    </h2>
+                    <p>
+                        A pastel de Belém története az 1800-as évekig nyúlik vissza és a lisszaboni Belém-toronyhoz közeli
+                        Szent Jeromos-kolostorban kezdődött.
+                        Az 1820-as liberális forradalom után az országban működő kolostorokat ugyanis bezárták, a
+                        szerzeteseket és az ott dolgozókat elűzték...
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://birovitsbence.github.io/IKT-1-PASTEL-DE-BELEM/">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#guba">
+                <div class="col-md-9">
+                    <h2>
+                        Mákos guba
+                    </h2>
+                    <p>
+                        A mákos guba jellegzetes magyar édesség, de ismert Németország keleti felén és Lengyelországban is.
+                        Eredetileg karácsonyi ünnepi étel volt, és abban a hiszemben sütötték, hogy a sokszemű mák sok
+                        szerencsét, sok pénzt hoz az új esztendőben.
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://pesek-patrik.github.io/ikt/projekt/index.html">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+    
+    
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="./Mákos guba/makos-guba.jpg" alt="Mákos guba" title="Mákos guba">
+                </div>
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#kokusz">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="./Kókuszgolyó/kokusz2.jpg" alt="Kókuszgolyó" title="Kókuszgolyó">
+                </div>
+                <div class="col-md-9">
+                    <h2>
+                        Kókuszgolyó
+                    </h2>
+                    <p>
+    
+                    </p>
+                    <p>
+                        <a href="">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#epres">
+                <div class="col-md-9">
+                    <h2>
+                        Epres Sajttorta
+                    </h2>
+                    <p>
+                        A sajttorta vagy sajttorta, a francia kanadai sajttorta egy észak-amerikai fajta sajttorta. Ez egy
+                        édes desszert, amely krémsajt, tojás, cukor és vanília- és / vagy citromillat keverékéből készül,
+                        sütitörmelék (általában graham keksz ) kérgén...
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://iktsutik.000webhostapp.com/">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="./Epres sajttorta/epressajttorta.jpg" alt="Epres Sajttorta"
+                        title="Epres Sajttorta">
+                </div>
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#baklava">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="" alt="Baklava" title="Baklava">
+                </div>
+                <div class="col-md-9">
+                    <h2>
+                        Baklava
+                    </h2>
+                    <p>
+    
+                    </p>
+                    <p>
+                        <a href="">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#gofri">
+    
+                <div class="col-md-9">
+                    <h2>
+                        Gofri
+    
+                    </h2>
+                    <p>
+    
+                    </p>
+                    <p>
+                        <a href="">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="./Gofri/Zsofi_gofri/img/gofri4.jpg" alt="Gofri" title="Gofri">
+                </div>
+            </article>
+            <section class="row">
+                <section class="col">
+                    <hr>
+                </section>
+            </section>
+            <article class="row" id="#neger">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="./Négercsók/négercsók3.jpg" alt="Négercsók" title="Négercsók">
+                </div>
+                <div class="col-md-9">
+                    <h2>
+                        Négercsók
+                    </h2>
+                    <p>
+                        Négercsók, Néger csók vagy másként kakaós csók néven ismert édesség egy olyan sütemény vagy
+                        desszert, amely a világ számos országában és kultúrájában megtalálható. Az édesség receptje és neve
+                        különböző lehet a különböző régiókban és kultúrákban, és fontos megjegyezni, hogy a "Négercsók" név
+                        sokak számára sértő vagy megbélyegzőnek érződik, ezért néhány helyen már cserélték vagy módosították
+                        a nevet.
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://commie-acts.000webhostapp.com/index.html">
+                            <button class="btn btn-primary">
+                                Olvasd tovább
+                            </button>
+                        </a>
+                    </p>
+                </div>
+            </article>
+        </main>
 
-      </main>
-
-
-
-
-
-
-    <footer class="container-fluid">
-        &copy; Készítette: NJIT, 11.évf. SZFT5 csop.
+    </main>
+    <footer class="footer container-fluid bg-primary mt-auto py-3 text-center ">
+        &copy; Made by NJIT, 11th grade, SZFT5
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
-    </script>
+        crossorigin="anonymous"></script>
 
 </body>
 

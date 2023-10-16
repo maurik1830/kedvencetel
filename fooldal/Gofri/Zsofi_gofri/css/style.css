@@ -8,42 +8,33 @@
 .vl {
     border-left: 1px solid grey;
     height: 500px;
-    padding: 0%;
-    width: 0%;
-}
+
+  }
   
 footer p{
     text-align: center;
    
 }
 body{
-    background-image: url(../img/pala3.jpg);
+    background-image: url(../img/gofri3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Tahoma', cursive;
 }
 .static{
     background-color: rgba(255, 255, 255, 0.7);
 }
-.acces{
-    padding-left: 125px;
-    padding-right: 25px;
-    width: 50%;
+.under{
+    margin-bottom: 500px;
 }
-.make{
-    padding-left: 75px;
-    padding-right: 100px;
+footer{
+    margin-bottom: 0%;
 }
-
-
+#nav{
+    color: white;
+}
 p{
     text-align: justify;
 
 }
-.paragraph{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
